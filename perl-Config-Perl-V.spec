@@ -4,7 +4,7 @@
 
 Name:           %{?scl_prefix}perl-Config-Perl-V
 Version:        0.32
-Release:        451%{?dist}
+Release:        452%{?dist}
 Summary:        Structured data retrieval of perl -V output
 License:        GPL+ or Artistic
 URL:            https://metacpan.org/release/Config-Perl-V
@@ -66,6 +66,9 @@ chmod -x examples/*
 %{_mandir}/man3/*
 
 %changelog
+* Tue Jan 07 2020 Jitka Plesnikova <jplesnik@redhat.com> - 0.32-452
+- Re-rebuild of bootstrapped packages
+
 * Fri Dec 20 2019 Jitka Plesnikova <jplesnik@redhat.com> - 0.32-451
 - SCL
 
