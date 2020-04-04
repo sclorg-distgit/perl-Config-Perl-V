@@ -1,0 +1,25 @@
+From df89962a7df684f6dabb035a161e6bece2f8ee0f Mon Sep 17 00:00:00 2001
+From: Jitka Plesnikova <jplesnik@redhat.com>
+Date: Thu, 25 Apr 2019 15:51:26 +0200
+Subject: [PATCH] Upgrade to 0.32
+
+---
+ V.pm | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/V.pm b/V.pm
+index a738cbe..dbb0f88 100644
+--- a/V.pm
++++ b/V.pm
+@@ -6,7 +6,7 @@ use warnings;
+ use Config;
+ use Exporter;
+ use vars qw($VERSION @ISA @EXPORT_OK %EXPORT_TAGS);
+-$VERSION     = "0.31";
++$VERSION     = "0.32";
+ @ISA         = qw( Exporter );
+ @EXPORT_OK   = qw( plv2hash summary myconfig signature );
+ %EXPORT_TAGS = (
+-- 
+2.20.1
+
